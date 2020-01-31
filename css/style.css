@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+
+@media(max-width: 450px) {
+    .circle {
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+  background: #000;
+  display: table-cell;
+}
+}
+.circle {
+
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: auto;
+  text-align: center;
+  background: #000;
+  display: table-cell;
+}
+
 .container1 .gallery-container {
     background-color: #fff;
     color: #35373a;
