@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
-
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
 @media(max-width: 450px) {
     .circle {
 
@@ -17,7 +24,7 @@
 }
 .circle {
 
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 50%;
   font-size: 20px;
@@ -74,7 +81,6 @@
     color: #fff;
     font-size: 26px;
     font-family: 'Glyphicons Halflings';
-    content: '\e003';
     pointer-events: none;
     z-index: 9000;
     transition: 0.4s;
@@ -88,9 +94,7 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: rgba(46, 132, 206, 0.7);
     content: '';
-    transition: 0.4s;
 }
 
 .tz-gallery .lightbox:hover:after,
