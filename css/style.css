@@ -6830,11 +6830,17 @@ textarea.form-control {
   @media (max-width: 767px) {
     .ps-testimonials {
       padding: 60px 0; } }
-
+.new{
+  font-size: 22px;
+  color: #555;
+}
+ @media (max-width: 767px) {
+     .new{
+        font-size: 16px; } }
 .ps-home-about {
   padding: 115px 0 110px; }
   .ps-home-about .ps-section__content {
-    text-align: center; }
+    text-align: left; }
     .ps-home-about .ps-section__content h5 {
       font-size: 16px;
       color: #555; }
@@ -6860,7 +6866,9 @@ textarea.form-control {
     .ps-home-about {
       padding: 60px 0; }
       .ps-home-about .ps-section__image img {
-        max-height: 150px; }
+        max-height: 150px; 
+       margin-left: 100px;
+     }
       .ps-home-about .ps-section__content p {
         font-size: 16px; } }
 
