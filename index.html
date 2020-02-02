@@ -25,7 +25,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   </head>
-  <body>
+  <body style="overflow-x: hidden;">
     <header class="header header--default header--home-4 white" data-sticky="true">
       <div class="header__left">
         <ul class="ps-list--social">
@@ -300,7 +300,7 @@
           </div>
         </div>
       </div>
-      <div class="ps-section ps-home-about" id="home">
+      <div class="ps-section ps-home-about text-center" id="home">
         <div class="container">
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
@@ -321,7 +321,7 @@ This search led to an idea & thus their love for Nutrition, Agriculture & Food e
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
-              <div class="ps-section__image"><img src="img/homepage/home-3/cookfemale.webp" alt=""></div>
+              <div class="ps-section__image"><img src="img/homepage/home-3/cook.webp" alt="" style="max-height: 600px;"></div>
             </div>
           </div>
         <!--  <div class="ps-section__footer">
@@ -665,7 +665,7 @@ This search led to an idea & thus their love for Nutrition, Agriculture & Food e
       <!--<div class="ps-section ps-home-video bg--cover" data-background="img/bg/home-3/home-video.jpg">
         
           <div class="ps-section__header">-->
-            <div class="container" style="margin-top: -15%; margin-left: 2%; left: auto; transform: rotate(0deg);" id="products">
+          <!--  <div class="container" style="margin-top: -15%; margin-left: 2%; left: auto; transform: rotate(0deg);" id="products">
             
             <div class="container cta-100 " >
             	<h1 style="text-align: center;">Blog</h1><br><br>
@@ -679,191 +679,98 @@ This search led to an idea & thus their love for Nutrition, Agriculture & Food e
                   <li data-target="#blogCarousel" data-slide-to="1"></li>
                 </ol>
                 <!-- Carousel items -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <!--<div class="carousel-inner">
+                 <div class="carousel-item active">
                     <div class="row">
                       <div class="col-md-4" >
                         <div class="item-box-blog">
                           <div class="item-box-blog-image">
                             <!--Date-->
-                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                           <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
                             <!--Image-->
-                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                            <!--<figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
                           </div>
                           <div class="item-box-blog-body">
                             <!--Heading-->
-                            <div class="item-box-blog-heading">
+                           <!-- <div class="item-box-blog-heading">
                               <a href="#" tabindex="0">
                                 <h5>News Title</h5>
                               </a>
                             </div>
                             <!--Data-->
-                            <div class="item-box-blog-data" style="padding: px 15px;">
+                           <!-- <div class="item-box-blog-data" style="padding: px 15px;">
                               <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
                             </div>
                             <!--Text-->
-                            <div class="item-box-blog-text">
+                           <!-- <div class="item-box-blog-text">
                               <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
                             </div>
                             <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
                             <!--Read More Button-->
-                          </div>
+                        <!--  </div>
                         </div>
                       </div>
                       <div class="col-md-4" >
                         <div class="item-box-blog">
                           <div class="item-box-blog-image">
                             <!--Date-->
-                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                          <!--  <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
                             <!--Image-->
-                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                           <!-- <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
                           </div>
                           <div class="item-box-blog-body">
                             <!--Heading-->
-                            <div class="item-box-blog-heading">
+                           <!-- <div class="item-box-blog-heading">
                               <a href="#" tabindex="0">
                                 <h5>News Title</h5>
                               </a>
                             </div>
                             <!--Data-->
-                            <div class="item-box-blog-data" style="padding: px 15px;">
+                           <!-- <div class="item-box-blog-data" style="padding: px 15px;">
                               <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
                             </div>
                             <!--Text-->
-                            <div class="item-box-blog-text">
+                           <!-- <div class="item-box-blog-text">
                               <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
                             </div>
                             <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
                             <!--Read More Button-->
-                          </div>
+                         <!-- </div>
                         </div>
                       </div>
                       <div class="col-md-4" >
                         <div class="item-box-blog">
                           <div class="item-box-blog-image">
                             <!--Date-->
-                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                           <!-- <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
                             <!--Image-->
-                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                           <!-- <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
                           </div>
                           <div class="item-box-blog-body">
                             <!--Heading-->
-                            <div class="item-box-blog-heading">
+                           <!-- <div class="item-box-blog-heading">
                               <a href="#" tabindex="0">
                                 <h5>News Title</h5>
                               </a>
                             </div>
                             <!--Data-->
-                            <div class="item-box-blog-data" style="padding: px 15px;">
+                           <!-- <div class="item-box-blog-data" style="padding: px 15px;">
                               <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
                             </div>
                             <!--Text-->
-                            <div class="item-box-blog-text">
+                           <!-- <div class="item-box-blog-text">
                               <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
                             </div>
                             <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
                             <!--Read More Button-->
-                          </div>
+                       <!--   </div>
                         </div>
                       </div>
                     </div>
                     <!--.row-->
-                  </div>
+                 <!-- </div>
                   <!--.item-->
-                  <div class="carousel-item ">
-                    <div class="row">
-                      <div class="col-md-4" >
-                        <div class="item-box-blog">
-                          <div class="item-box-blog-image">
-                            <!--Date-->
-                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                            <!--Image-->
-                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
-                          </div>
-                          <div class="item-box-blog-body">
-                            <!--Heading-->
-                            <div class="item-box-blog-heading">
-                              <a href="#" tabindex="0">
-                                <h5>News Title</h5>
-                              </a>
-                            </div>
-                            <!--Data-->
-                            <div class="item-box-blog-data" style="padding: px 15px;">
-                              <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                            </div>
-                            <!--Text-->
-                            <div class="item-box-blog-text">
-                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                            </div>
-                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                            <!--Read More Button-->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4" >
-                        <div class="item-box-blog">
-                          <div class="item-box-blog-image">
-                            <!--Date-->
-                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                            <!--Image-->
-                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
-                          </div>
-                          <div class="item-box-blog-body">
-                            <!--Heading-->
-                            <div class="item-box-blog-heading">
-                              <a href="#" tabindex="0">
-                                <h5>News Title</h5>
-                              </a>
-                            </div>
-                            <!--Data-->
-                            <div class="item-box-blog-data" style="padding: px 15px;">
-                              <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                            </div>
-                            <!--Text-->
-                            <div class="item-box-blog-text">
-                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                            </div>
-                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                            <!--Read More Button-->
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4" >
-                        <div class="item-box-blog">
-                          <div class="item-box-blog-image">
-                            <!--Date-->
-                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                            <!--Image-->
-                            <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
-                          </div>
-                          <div class="item-box-blog-body">
-                            <!--Heading-->
-                            <div class="item-box-blog-heading">
-                              <a href="#" tabindex="0">
-                                <h5>News Title</h5>
-                              </a>
-                            </div>
-                            <!--Data-->
-                            <div class="item-box-blog-data" style="padding: px 15px;">
-                              <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                            </div>
-                            <!--Text-->
-                            <div class="item-box-blog-text">
-                              <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                            </div>
-                             <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                            <!--Read More Button-->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--.row-->
-                  </div>
-                  <!--.item-->
-                </div>
-                <!--.carousel-inner-->
-              </div>
-              <!--.Carousel-->
+                 
             </div>
           </div>
         </div>
@@ -986,7 +893,7 @@ This search led to an idea & thus their love for Nutrition, Agriculture & Food e
             </form>
           </div>
           <div class="ps-footer__center">
-            <div class="ps-site-info"><a class="ps-logo" href="index.html"><img src="img/logo.webp" alt=""></a>
+            <div class="ps-site-info"><a class="ps-logo" href="index.html"><img src="img/logo.webp" alt="" style="max-height: 100px;"></a>
               <p>E 39 Gandhi Colony, Bikaner, 334001, Rajasthan, India.</p>
               <p>Email: <a href="#">b@bewustfoods.com </a></p>
               <p>Phone:<span class="ps-hightlight"> +91 8386811117, +91 7232011234, +919116661040</span></p>
