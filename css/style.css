@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.imgs img{
+  width: 400px;
+  height: 400px;
+}
 
 .card-columns {
   @include media-breakpoint-only(lg) {
