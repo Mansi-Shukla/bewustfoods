@@ -12,8 +12,19 @@
     column-count: 5;
   }
 }
-@media(max-width: 450px) {
+@media(max-width: 400px) {
+  body{
+    overflow-x: hidden;
+
+
+
+  }
+  .imgm{
+    margin-right: 45%;
+  }
+
     .circle {
+  
 
   width: 80px;
   height: 80px;
